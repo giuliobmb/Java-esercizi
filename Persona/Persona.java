@@ -16,10 +16,10 @@ public class Persona{
 	
 	//getter setter
 	
-	public void getNome(){
+	public String getNome(){
 		return nome;
 	}
-	public void getEta(){
+	public int getEta(){
 		return eta;
 	}
 	public void setNome(String nome){
@@ -28,5 +28,6 @@ public class Persona{
 	public void setEta(int eta){
 		this.eta = eta;
 	}
+	
 	
 }
