@@ -6,9 +6,9 @@ public class TestaPersone{
 		p2 = new Persona("jacopo", 18);
 		
 		if(p1.getEta() > p2.getEta())
-			System.out.println("ciao");
+			System.out.println("La persona piu' vecchia e' " + p1.getNome());
 		else
-			System.out.println("ciao");
+			System.out.println("La persona piu' vecchia e' " + p2.getNome());
 		
 	}
 	
